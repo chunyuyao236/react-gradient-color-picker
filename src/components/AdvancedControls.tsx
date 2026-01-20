@@ -184,7 +184,7 @@ const AdvancedControls = ({ openAdvanced }: { openAdvanced: boolean }) => {
           value={s}
           reffy={satRef}
           config={config}
-          label="Saturation"
+          label="饱和度"
           callback={satDesat}
           squareWidth={squareWidth}
           openAdvanced={openAdvanced}
@@ -195,7 +195,7 @@ const AdvancedControls = ({ openAdvanced }: { openAdvanced: boolean }) => {
           value={l}
           config={config}
           reffy={lightRef}
-          label="Lightness"
+          label="亮度"
           callback={setLight}
           squareWidth={squareWidth}
           openAdvanced={openAdvanced}
@@ -206,7 +206,7 @@ const AdvancedControls = ({ openAdvanced }: { openAdvanced: boolean }) => {
           value={hc?.v}
           config={config}
           reffy={brightRef}
-          label="Brightness"
+          label="明度"
           callback={setBright}
           squareWidth={squareWidth}
           openAdvanced={openAdvanced}
